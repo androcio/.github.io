@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Last Of Us</title>
+    <link rel="icon" href="icono.png" type="image/png">
+    <link rel="stylesheet" href="estilos.css">
+    
+
+
+</head>
+<body style="background-color: rgb(0, 0, 0);">
+    <header style=" background-color:black; color: white; padding: 1rem 2rem; display: flex;; justify-content: space-between; align-items: center;">
+
+        <img class="logo" src="logo2.png" alt="logo" style="width: 60ox; height: 60px;" onclick="logo()">
+
+    <nav class="navegacion">
+        <a href="inicio.html" onclick="mostrarSeccion('inicio')" style="color: white;">INICIO</a>
+            <div class="dropdown">
+                <a href="#" style="color: white;">VIDEOJUEGO</a>
+                <div class="dropdown-content">
+                    <a href="the last of us 1.html" class="parte1">THE LAST OF US PARTE I</a>
+                    <a href="the last of us 2.html" class="parte2">THE LAST OF US PARTE II</a>
+                    <a href="dlc.html" class="leftbehind">THE LAST OF US: LEFT BEHIND</a>
+                    
+                </div>
+            </div>
+        
+        <a href="serie.html" onclick="mostrarSeccion('serie')" style="color: white;">SERIE</a>
+        <a href="sobrenosotros.html" onclick="mostrarSeccion('sobre_nosotros')" style="color: white;">SOBRE NOSOTROS</a>
+    </nav>
+    </nav>
+
+</header>
+
+<div class="container" style="margin-left: 230px; margin-right: 200px;">
+    <section id="inicio" class="seccion">
+        <div class="historia" style="display: flex; gap: 2rem; align-items: flex-start;">
+            
+            <div style="flex: 1; color: white;">
+                <h1 style="color: #ee8701; font-family: Impact;">JACKSON</h1>
+                <p>
+                    Joel y Ellie continúan su viaje tras escapar del hospital de los Luciérnagas. Mientras atraviesan senderos y bosques en las afueras, se percibe una tensión silenciosa entre ambos, marcada por los hechos recientes y las verdades no dichas. Ellie, aún recuperándose de la anestesia y sin recordar lo sucedido en detalle, comienza a expresar sus dudas y a buscar respuestas.<br><br>
+                
+                    Durante el trayecto, Ellie le confiesa a Joel algunas de las pérdidas que ha experimentado a lo largo de su vida, desde la muerte de su amiga Riley hasta las personas que ha tenido que dejar atrás. Sus palabras reflejan el peso de todo lo vivido, y la necesidad de encontrarle un sentido a su supervivencia en un mundo devastado. Joel, por su parte, intenta consolarla, pero evita hablar abiertamente sobre lo ocurrido en el hospital.<br><br>
+                
+                    Al llegar a las cercanías de Jackson, la comunidad segura donde vive Tommy, el hermano de Joel, Ellie se detiene y le pide a Joel que le jure que todo lo que le dijo sobre los Luciérnagas y la imposibilidad de una cura es verdad. Es un momento cargado de incertidumbre y desconfianza, donde Ellie busca una última garantía antes de continuar.<br><br>
+                
+                    Joel, mirándola a los ojos, le asegura que todo lo que le contó es cierto. Aunque Ellie parece aceptar su palabra, su expresión deja entrever que aún quedan dudas en su corazón. Sin embargo, asiente en silencio, y ambos prosiguen su camino hacia una nueva oportunidad de vida, llevando consigo las cicatrices de su travesía y las decisiones que los marcarán para siempre.
+                </p>
+
+                <a href="capitulo11.html">
+                        <button class="button" style="width: 9.5em;">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                              <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12h-15m0 0l6.75-6.75M4.5 12l6.75 6.75"></path>
+                            </svg>
+                            <div class="text">Anterior</div>
+                          
+                          </button>
+                </a>  
+
+                
+                <a href="the last of us 1.html">
+                    <button class="button5">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"></path>
+                        </svg>
+                        <div class="text">Volver</div>
+                      
+                      </button> 
+
+                    </a>
+                    
+                    
+            </div>
+            
+            <div class="imagen" style="flex: 1;">
+                <img src="portada1-12.png" alt="Imagen Portada Historia" style="width: 120%; height: 550px; border-radius: 10px;">
+            </div>
+
+        </div>
+
+
+</body>
+<script src="scripts.js" defer></script>
+</html>
